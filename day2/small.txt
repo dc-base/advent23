@@ -1,0 +1,10 @@
+Game 1: 2 green, 6 blue, 7 red; 12 green, 6 blue, 3 red; 5 red, 18 green, 4 blue
+Game 2: 10 green, 4 red; 2 red; 12 green, 11 red, 1 blue; 1 blue, 11 red, 5 green; 10 red, 9 green, 1 blue
+Game 3: 3 green; 15 red, 7 blue, 1 green; 3 red, 6 blue, 1 green; 14 blue, 13 red, 2 green; 1 green, 6 blue, 6 red; 16 red, 13 blue, 2 green
+Game 4: 5 blue; 8 blue, 7 red; 9 blue, 5 red, 4 green; 4 red, 1 green; 8 red, 6 blue; 2 blue, 4 red, 3 green
+Game 5: 3 blue, 4 red, 10 green; 13 green, 8 blue, 2 red; 2 red, 4 green, 6 blue; 3 blue, 5 green, 2 red; 4 red, 13 blue, 8 green; 9 green, 2 red
+Game 6: 3 red, 2 blue; 6 green, 13 blue; 11 blue, 1 red; 4 green, 3 red, 5 blue
+Game 7: 14 green, 2 red, 5 blue; 4 blue, 8 green; 2 red, 2 green, 9 blue
+Game 8: 10 green, 6 blue; 3 green, 4 red; 7 blue, 7 red, 5 green; 1 red, 11 green; 3 blue, 2 red, 11 green
+Game 9: 4 blue, 1 green, 6 red; 5 red, 5 blue; 1 blue, 7 red; 4 red, 8 blue; 6 red
+Game 10: 3 green, 7 blue, 6 red; 1 red, 5 blue; 6 red; 1 red, 5 green, 6 blue; 5 red, 2 blue; 6 red, 4 blue, 6 green
