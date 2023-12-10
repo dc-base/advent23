@@ -25,8 +25,6 @@ func buildArr(seedArr []int, mp []three) []int {
 				resArr = append(resArr, newVal)
 				added = true
 			}
-
-
 		}
 		if !added {
 			resArr = append(resArr, seed)
@@ -77,51 +75,30 @@ func part1(lines []string){
 	currLine++
 	arrStruct = buildThree(re, lines, &currLine)
 	seedToSoilArr := buildArr(seedArr, arrStruct)
-	fmt.Println("SeedtoSoil")
-	fmt.Println(seedToSoilArr)
-	fmt.Println(len(seedToSoilArr))
 
 	fmt.Println("Build soil to fert")
 	arrStruct = buildThree(re, lines, &currLine)
 	soilToFertArr := buildArr(seedToSoilArr, arrStruct)
-	fmt.Println("SoiltoFert")
-	fmt.Println(soilToFertArr)
-	fmt.Println(len(soilToFertArr))
 
 	fmt.Println("Build fert to water")
 	arrStruct = buildThree(re, lines, &currLine)
 	fertToWaterArr := buildArr(soilToFertArr, arrStruct)
-	fmt.Println("fertToWaterArr")
-	fmt.Println(fertToWaterArr)
-	fmt.Println(len(fertToWaterArr))
 
 	fmt.Println("Build water to light")
 	arrStruct = buildThree(re, lines, &currLine)
 	waterToLightArr := buildArr(fertToWaterArr, arrStruct)
-	fmt.Println("waterToLightArr")
-	fmt.Println(waterToLightArr)
-	fmt.Println(len(waterToLightArr))
 
 	fmt.Println("Build light to temp")
 	arrStruct = buildThree(re, lines, &currLine)
 	lightToTempArr := buildArr(waterToLightArr, arrStruct)
-	fmt.Println("lightToTempArr")
-	fmt.Println(lightToTempArr)
-	fmt.Println(len(lightToTempArr))
 
 	fmt.Println("Build temp to humidity")
 	arrStruct = buildThree(re, lines, &currLine)
 	tempToHumidArr := buildArr(lightToTempArr, arrStruct)
-	fmt.Println("tempToHumidArr")
-	fmt.Println(tempToHumidArr)
-	fmt.Println(len(tempToHumidArr))
 
 	fmt.Println("Build humid to location")
 	arrStruct = buildThree(re, lines, &currLine)
 	humidToLocArr := buildArr(tempToHumidArr, arrStruct)
-	fmt.Println("humidToLocArr")
-	fmt.Println(humidToLocArr)
-	fmt.Println(len(humidToLocArr))
 
 	min := math.MaxInt64 
 	for i:=0; i < len(humidToLocArr); i++ {
